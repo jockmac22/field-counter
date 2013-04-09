@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Field Counter - Sample Usage</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        
+    </head>
+    <body>
+        <h1>Field Counter</h1>
+        
+        <form>
+            <h3>Basic Implementation</h3>
+            <textarea id="formFieldBasic" name="formField" style="width:500px;height:100px;">This is a basic sample counter field. This field is limited to 300 characters.</textarea>
+            <p class="fieldCounter" data-limit="300" data-field="formFieldBasic">0/0</p>
+            
+            <h3>Custom Counter String</h3>
+            <textarea id="formFieldCustomOutput" name="formField" style="width:500px;height:100px;">This is a sample counter field with a customized counter string, and limit of 200 characters.</textarea>
+            <p class="fieldCounter" data-limit="200" data-field="formFieldCustomOutput" data-format="There are #count# of #limit# characters used totaling #words# words.">0 of 0 characters used.</p>
+            
+            <h3>No Limit</h3>
+            <textarea id="formFieldNoLimit" name="formField" style="width:500px;height:100px;">This is a sample counter field with no character limit. It should be noted that you have to set the 'format' data attribute for this one to prevent it from displaying the limit, which is 0, and therfore useless in this regard.</textarea>
+            <p class="fieldCounter" data-field="formFieldNoLimit" data-format="C:#count#, W:#words#">0</p>
+            
+        </form>
+        
+        <!-- Feel free to remove this footer -->
+        <div class="footer">
+
+            This work was created by Jocko MacGregor for Ballantine Digital Media, and is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+            <br />
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
+        </div>
+        
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+        <script src="js/field-counter-0.1b.js"></script>
+
+    </body>
+</html>
