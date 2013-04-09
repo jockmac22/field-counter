@@ -85,12 +85,12 @@ string to Field Counter that it will use to generate the output.  The template
 uses variables that are enclosed in has marks (#).
 
 For example:
-    There are #count# of #limit# characters used totaling #words# words.
+```
+There are #count# of #limit# characters used totaling #words# words.
+```
 
 Each variable will be removed from the template an replaced with their properly
-calculated corresponding value.
-
-These are the variables that you can use
+calculated corresponding value. Here are the variables that you can use
 
 ##### count
 The current number of characters in the field.
