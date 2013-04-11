@@ -6,7 +6,7 @@ The counts are updated as data is entered into the field, and the output string
 is completely customizable, and can be placed anywhere on the page.
 
 # Authors and Attributions
-Field Counter was written by Jocko MacGregor for [Ballantine Digital Media](http://blog.buzztown.com/).
+Field Counter was written by Jocko MacGregor for [Ballantine Digital Media](http://www.bdmedia.com/).
 
 # License
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
